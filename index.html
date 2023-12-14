@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded" rel="stylesheet">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <div class="logo">
+        <img src="images/logo.png"></img>
+        <h1>Among<span class="red">Us</span></h1>
+        <a href="" class="navbar"></a>
+        <div class="close">
+          <span class="material-symbols-rounded">
+            close
+          </span>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <a href="#" class="active">
+          <span class="material-symbols-rounded">grid_view</span>
+          <h1>Dashboard</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">person</span>
+          <h1>Players</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">list_alt</span>
+          <h1>Logs</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">equalizer</span>
+          <h1>Stats</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">mail</span>
+          <h1>Chat</h1>
+          <span class="count">20</span>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">inventory</span>
+          <h1>Missions</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">report</span>
+          <h1>Reports</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">settings</span>
+          <h1>Settings</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">add</span>
+          <h1>Add Player</h1>
+        </a>
+        <a href="#">
+          <span class="material-symbols-rounded">logout</span>
+          <h1>Logout</h1>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <h1>Dashboard</h1>
+      <div class="date-container">
+        <h3>Select a date:</h3>
+        <input type="date">
+      </div>
+
+      <div class="stats-container">
+        <div class="Kills main">
+          <div class="label">
+            <span class="material-symbols-rounded">skull</span>
+            <h3>Total Kills:</h3>
+          </div>
+          <div class="num">
+            <h4>315</h4>
+            <div class="svg-container">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="#FF7782" color="#FFFFFF"
+                stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="180"/>
+              </svg>
+              <div class="top">
+                <h2>Top 74%</h2>
+              </div>
+            </div>
+          </div>
+          <h6>Last 1 month</h6>
+        </div>
+
+        <div class="Vents main">
+          <div class="label">
+            <span class="material-symbols-rounded">hvac</span>
+            <h3>Total Vents:</h3>
+          </div>
+          <div class="num">
+            <h4>516</h4>
+            <div class="svg-container">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="#FF7782" 
+                stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="220"/>
+              </svg>
+              <div class="top">
+                <h2>Top 91%</h2>
+              </div>
+            </div>
+          </div>
+          <h6>Last 1 month</h6>
+        </div>
+
+        <div class="Wins main">
+          <div class="label"> 
+            <span class="material-symbols-rounded">workspace_premium</span>
+            <h3>Total Wins:</h3>
+          </div>
+          <div class="num">
+            <h4>109</h4>
+            <div class="svg-container">
+              <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="#FF7782" 
+                stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="130"/>
+              </svg>
+              <div class="top">
+                <h2>Top 49%</h2>
+              </div>
+            </div>
+          </div>
+          <h6>Last 1 month</h6>
+        </div>
+      </div>
+
+      <h1>Recent Logs</h1>
+      <div class="log-container">
+        <div class="log win">
+          <img src="images/red sus icon.png"></img>
+          <h3>Won the latest game | 3 Kills | 8 Vents</h3>
+          <h6>16:55 | 08-10-2022</h6>
+        </div>
+        <div class="log loss">
+          <img src="images/yellow sus icon.png"></img>
+          <h3>Lost the latest game | 1 Kill | 3 Vents</h3>
+          <h6>16:31 | 08-10-2022</h6>
+        </div>
+        <div class="log loss">
+          <img src="images/red sus icon.png"></img>
+          <h3>Lost the latest game | 2 Kills | 6 Vents</h3>
+          <h6>16:12 | 08-10-2022</h6>
+        </div>
+        <div class="log win">
+          <img src="images/cyan sus icon.png"></img>
+          <h3>Won the latest game | 5 Kills | 12 Vents</h3>
+          <h6>00:05 | 08-10-2022</h6>
+        </div>
+        <div class="log win">
+          <img src="images/purple sus icon.png"></img>
+          <h3>Won the latest game | 3 Kills | 5 Vents</h3>
+          <h6>23:49 | 07-10-2022</h6>
+        </div>
+      </div>
+      <div class="show-more-container">
+        <a href="#">
+          <span class="material-symbols-rounded">add</span>
+          <h3>Show More</h3>
+        </a>
+      </div>
+    </main>
+
+    <section>
+      <div class="theme-container">
+        <button type="button" class="theme light active">
+          <span class="material-symbols-rounded">light_mode</span>
+        </button>
+        <button type="button" class="theme dark">
+          <span class="material-symbols-rounded">dark_mode</span>
+        </button>
+      </div>
+      <div class="custom">
+        <h1>Customize:</h1>
+        <div class="avatar-wrapper">
+          <img src="images/Avatar1.png" id="avatar"> 
+        </div>
+        <div class="buttons-container">
+          <button type="button" class="left">&#60;</button>
+          <button type="button" class="mid" id="counter">1/3</button>
+          <button type="button" class="right">&#62;</button>
+        </div> 
+      </div>
+      
+      <h1>News:</h1>
+      <div class="news-container">
+        <a href="https://www.innersloth.com/introducing-randomized-lobby-names/" target="_blank" class="new">
+          <img src="images/New1.jpg">
+          <h3>Introducing Randomized Lobby Names</h3>
+          <h6>27-09-2022</h6>
+        </a>
+        <a href="https://www.innersloth.com/new-food-cosmicubes-patches/" target="_blank" class="new">
+          <img src="images/New3.jpg">
+          <h3>New Food Cosmicubes & Patches</h3>
+          <h6>23-08-2022</h6>
+        </a>
+      </div>
+    </section>
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
